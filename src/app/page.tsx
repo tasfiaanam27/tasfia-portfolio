@@ -1,6 +1,7 @@
 
 import Hero from "@/components/Hero";
 import About from "@/components/About";
+import Skills from "@/components/Skills";
 
 export default function Home() {
   return (
@@ -9,9 +10,10 @@ export default function Home() {
 
       <About />
 
+      <Skills />
+
       <div className="mx-auto max-w-7xl px-5 sm:px-8 lg:px-12">
         {[
-          "skills",
           "education",
           "projects",
           "contact",

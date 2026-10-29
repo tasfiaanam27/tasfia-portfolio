@@ -18,10 +18,10 @@ export default function About() {
         {/* Section Header */}
         <div className="mb-10 max-w-3xl">
           <div className="mb-5 flex items-center gap-3">
-            <span className="h-px w-10 bg-[var(--rose-dark)]" />
+            
 
             <span className="text-xs font-semibold uppercase tracking-[0.25em] text-[var(--rose-dark)] sm:text-sm">
-              01 / Get to know me
+              Get to know me
             </span>
           </div>
 
