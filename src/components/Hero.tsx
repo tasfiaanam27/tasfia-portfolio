@@ -41,7 +41,16 @@ export default function Hero() {
             </p>
           </div>
 
-          {/* Main Heading - Reduced Font Size */}
+          <div className="mt-8 flex items-center gap-3">
+            <span className="h-3 w-3 shrink-0 rounded-full bg-[var(--rose-dark)]" />
+
+            <h2 className="text-2xl font-bold tracking-wide text-[var(--foreground)] sm:text-3xl">
+              Full Stack Web Developer
+            </h2>
+          </div>
+
+          <br></br>
+
           <h1 className="font-[family-name:var(--font-playfair)] text-[clamp(2rem,2.8vw,3rem)] font-bold leading-[1.2] tracking-tight text-[var(--foreground)]">
             Designing with
             <br />
@@ -59,15 +68,6 @@ export default function Hero() {
               passion.
             </span>
           </h1>
-
-          {/* Professional Designation - Increased Font Size */}
-          <div className="mt-8 flex items-center gap-3">
-            <span className="h-3 w-3 shrink-0 rounded-full bg-[var(--rose-dark)]" />
-
-            <h2 className="text-2xl font-bold tracking-wide text-[var(--foreground)] sm:text-3xl">
-              Full Stack Web Developer
-            </h2>
-          </div>
 
           {/* Professional Introduction */}
           <p className="mt-6 max-w-lg text-base leading-8 text-[var(--muted)]">

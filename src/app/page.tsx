@@ -3,7 +3,7 @@ import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Skills from "@/components/Skills";
 import Education from "@/components/Education";
-
+import Projects from "@/components/Projects";
 import Contact from "@/components/Contacts";
 import Footer from "@/components/Footer";
 
@@ -18,6 +18,7 @@ export default function Home() {
 
       <Education />
 
+      <Projects />
 
       <Contact />
 
@@ -25,7 +26,7 @@ export default function Home() {
 
       <div className="mx-auto max-w-7xl px-5 sm:px-8 lg:px-12">
         {[
-          "projects",  
+     
         ].map((section) => (
           <section
             key={section}
