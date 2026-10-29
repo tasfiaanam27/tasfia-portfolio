@@ -36,8 +36,6 @@ export default function Hero() {
 
           {/* Intro Label - Increased Font Size */}
           <div className="mb-6 flex items-center gap-3">
-            <span className="h-px w-10 bg-[var(--rose-dark)]" />
-
             <p className="text-base font-semibold uppercase tracking-[0.22em] text-[var(--rose-dark)] sm:text-lg">
               Hello, I'm Tasfia
             </p>
@@ -48,7 +46,7 @@ export default function Hero() {
             Designing with
             <br />
 
-            <span className="italic text-[var(--rose-dark)]">
+            <span className="text-[var(--rose-dark)]">
               purpose.
             </span>
 
@@ -57,7 +55,7 @@ export default function Hero() {
             Developing with
             <br />
 
-            <span className="italic text-[var(--rose-dark)]">
+            <span className="text-[var(--rose-dark)]">
               passion.
             </span>
           </h1>
